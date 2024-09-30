@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .overflow-x-auto {
+      overflow-x: auto; /* Allow horizontal scrolling */
+    }
+  
+    table {
+      display: block; /* Make the table a block element */
+      overflow-x: auto; /* Allow horizontal scrolling */
+      white-space: nowrap; /* Prevent text from wrapping */
+    }
+  
+    th,
+    td {
+      padding: 10px; /* Adjust padding for better touch support */
+      font-size: 14px; /* Smaller font size on mobile */
+    }
+  
+    .flex {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: stretch; /* Stretch to fit the container */
+    }
+  
+    button {
+      width: 100%; /* Full-width buttons on mobile */
+      margin-top: 10px; /* Spacing between buttons */
+    }
+  }
+  
