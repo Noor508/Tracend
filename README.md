@@ -2,6 +2,12 @@
 
 This project is a web-based application built with a **React frontend** and an **ASP.NET Web API backend**. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on **Achievements**.
 
+### Demo Video
+
+You can watch the demo video of the Tracend Achievement Management System here:
+
+[Watch the Demo](https://www.youtube.com/watch?v=obMNnxemlQc)
+
 ## Project Structure
 
 - **Frontend**: React.js
@@ -81,11 +87,6 @@ Restoring Database from Backup
 5.  Click **OK** to restore the database.
 
 
-### Demo Video
-
-You can watch the demo video of the Tracend Achievement Management System here:
-
-[Watch the Demo](https://www.youtube.com/watch?v=obMNnxemlQc)
 
 
 
