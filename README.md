@@ -47,7 +47,7 @@ dotnet restore
 ```bash
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=your_server;Database=TracendDB;Trusted_Connection=True;"
+    "DefaultConnection": "Server=your_server;Database=Tracend;Trusted_Connection=True;"
   }
 }
 ```
