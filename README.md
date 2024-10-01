@@ -79,7 +79,7 @@ Restoring Database from Backup
     
 5.  Click **OK** to restore the database.
 
-```
+
 ### Demo Video
 
 You can watch the demo video of the Tracend Achievement Management System here:
