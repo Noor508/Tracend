@@ -56,7 +56,15 @@ dotnet restore
 npm install
 npm start
 ```
-
+### smtp configuration in app.setting.json
+Enter your email address from where you want to sent code.
+Generate app password from your gmail account and enter that password. Don't enter you gmail ACCOUNT PASSWORD.
+```bash
+"Email": {
+    "FromAddress": "",  
+    "FromPassword": "",
+    
+  },
 Restoring Database from Backup
 ------------------------------
 
