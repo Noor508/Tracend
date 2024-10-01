@@ -80,10 +80,9 @@ Restoring Database from Backup
 5.  Click **OK** to restore the database.
 
 ```
-
 ### Demo Video
 
 You can watch the demo video of the Tracend Achievement Management System here:
 
-[![Watch the Demo](watch here)](https://www.youtube.com/watch?v=obMNnxemlQc)
+[Watch the Demo](https://www.youtube.com/watch?v=obMNnxemlQc)
 
