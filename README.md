@@ -59,9 +59,6 @@ npm start
 ### smtp configuration in app.setting.json
 Enter your email address from where you want to sent code.
 Generate app password from your gmail account and enter that password. Don't enter you gmail ACCOUNT PASSWORD.
-### How to get app password
-
-![App password](https://drive.google.com/file/d/1DH58MvFCK31ceJHE4vrkrKzXJJmyXJbl/view?usp=sharing)
 
 ```bash
 "Email": {
