@@ -31,3 +31,8 @@ This project is a web-based application built with a **React frontend** and an *
 ```bash
 git clone https://github.com/yourusername/tracend.git
 cd tracend
+
+### Backend Setup (ASP.NET Web API)
+
+```bash
+cd TracendBackend
