@@ -75,7 +75,7 @@ Restoring Database from Backup
     
 3.  Choose **Device** and select the .bak file from the backup directory.
     
-4.  In the **Destination** section, provide the name of the database (e.g., TracendDB).
+4.  In the **Destination** section, provide the name of the database (e.g., Tracend.bak).
     
 5.  Click **OK** to restore the database.
 
