@@ -51,4 +51,20 @@ dotnet restore
   }
 }
 
+###Frontend Setup (React)
+```bash
+npm install
+npm start
+
+
+###Restoring Database from Backup
+
+Open SQL Server Management Studio (SSMS) and connect to your server.
+
+Restore Database:
+
+-Right-click on Databases and select Restore Database.
+-Choose Device and select the .bak file from the backup directory.
+-In the "Destination" section, provide the name of the database (e.g., TracendDB).
+-Click OK to restore the database.
 
