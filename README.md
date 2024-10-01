@@ -69,3 +69,12 @@ Restoring Database from Backup
 4.  In the **Destination** section, provide the name of the database (e.g., TracendDB).
     
 5.  Click **OK** to restore the database.
+
+```
+
+## Demo Video
+
+You can watch the demo video of the Tracend Achievement Management System here:
+
+[Watch the Demo Video](https://drive.google.com/file/d/1PbV6lwhM1miBkAw6X6jv5mwkmolRVVb_/view?usp=sharing)
+
