@@ -58,15 +58,15 @@ dotnet restore
 npm install
 npm start
 
+Restoring Database from Backup
+------------------------------
 
-###Restoring Database from Backup
-
-Open SQL Server Management Studio (SSMS) and connect to your server.
-
-Restore Database:
-
--Right-click on Databases and select Restore Database.
--Choose Device and select the .bak file from the backup directory.
--In the "Destination" section, provide the name of the database (e.g., TracendDB).
--Click OK to restore the database.
-
+1.  Open **SQL Server Management Studio (SSMS)** and connect to your server.
+    
+2.  Right-click on **Databases** and select **Restore Database**.
+    
+3.  Choose **Device** and select the .bak file from the backup directory.
+    
+4.  In the **Destination** section, provide the name of the database (e.g., TracendDB).
+    
+5.  Click **OK** to restore the database.
