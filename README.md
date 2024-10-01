@@ -87,7 +87,4 @@ You can watch the demo video of the Tracend Achievement Management System here:
 
 [Watch the Demo](https://www.youtube.com/watch?v=obMNnxemlQc)
 
-### Demo Video
-
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/Noor508/Tracend/blob/main/Tracend.mp4)
 
