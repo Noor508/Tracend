@@ -86,9 +86,7 @@ Restoring Database from Backup
 You can watch the demo video of the Tracend Achievement Management System here:
 
 [Watch the Demo](https://www.youtube.com/watch?v=obMNnxemlQc)
-## Demo Video
 
-<https://github.com/Noor508/Tracend/blob/main/assets/Tracend.mp4>
 
 
 
