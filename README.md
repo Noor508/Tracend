@@ -1,78 +1,63 @@
-\# Tracend - Achievement Management System
+# Tracend - Achievement Management System
 
-This project is a web-based application built with a \*\*React frontend\*\* and an \*\*ASP.NET Web API backend\*\*. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on \*\*Achievements\*\*.
+This project is a web-based application built with a **React frontend** and an **ASP.NET Web API backend**. The application allows users to perform CRUD (Create, Read, Update, Delete) operations on **Achievements**.
 
-\## Project Structure
+## Project Structure
 
-\- \*\*Frontend\*\*: React.js
+- **Frontend**: React.js
+- **Backend**: ASP.NET Web API
+- **Database**: SQL Server
 
-\- \*\*Backend\*\*: ASP.NET Web API
+---
 
-\- \*\*Database\*\*: SQL Server
+## Prerequisites
 
-\---
+### Backend
+- **.NET SDK** (version 8.0 )
+- **SQL Server**
+- **Visual Studio** or any IDE supporting .NET
+- **SMTP service** for email functionality (optional)
 
-\## Prerequisites
+### Frontend
+- **Node.js** (version 14 or higher)
+- **npm** or **yarn**
 
-\### Backend
+---
 
-\- \*\*.NET SDK\*\* (version 8.0 )
+## Getting Started
 
-\- \*\*SQL Server\*\*
+### Clone the Repository
 
-\- \*\*Visual Studio\*\* or any IDE supporting .NET
-
-\- \*\*SMTP service\*\* for email functionality (optional)
-
-\### Frontend
-
-\- \*\*Node.js\*\* (version 14 or higher)
-
-\- \*\*npm\*\* or \*\*yarn\*\*
-
-\---
-
-\## Getting Started
-
-\### Clone the Repository
-
-\`\`\`bash
-
+```bash
 git clone https://github.com/yourusername/tracend.git
-
 cd tracend
 
-\### Backend Setup (ASP.NET Web API)
 
-\`\`\`bash
 
+
+### Backend Setup (ASP.NET Web API)
+
+```bash
 cd TracendBackend
 
-\### run this command
 
-\`\`\`bash
-
+### run this command
+```bash 
 dotnet restore
 
+
 ###Database Configuration:
-
 {
-
-"ConnectionStrings": {
-
-"DefaultConnection": "Server=your\_server;Database=TracendDB;Trusted\_Connection=True;"
-
-}
-
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=your_server;Database=TracendDB;Trusted_Connection=True;"
+  }
 }
 
 ###Frontend Setup (React)
-
-\`\`\`bash
-
+```bash
 npm install
-
 npm start
+
 
 ###Restoring Database from Backup
 
@@ -80,10 +65,8 @@ Open SQL Server Management Studio (SSMS) and connect to your server.
 
 Restore Database:
 
-\-Right-click on Databases and select Restore Database.
+-Right-click on Databases and select Restore Database.
+-Choose Device and select the .bak file from the backup directory.
+-In the "Destination" section, provide the name of the database (e.g., TracendDB).
+-Click OK to restore the database.
 
-\-Choose Device and select the .bak file from the backup directory.
-
-\-In the "Destination" section, provide the name of the database (e.g., TracendDB).
-
-\-Click OK to restore the database.
