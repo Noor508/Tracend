@@ -13,7 +13,7 @@ This project is a web-based application built with a **React frontend** and an *
 ## Prerequisites
 
 ### Backend
-- **.NET SDK** (version 6.0 or higher)
+- **.NET SDK** (version 8.0 )
 - **SQL Server**
 - **Visual Studio** or any IDE supporting .NET
 - **SMTP service** for email functionality (optional)
