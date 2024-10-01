@@ -31,32 +31,31 @@ This project is a web-based application built with a **React frontend** and an *
 ```bash
 git clone https://github.com/yourusername/tracend.git
 cd tracend
-
-
-
-
+``` 
 ### Backend Setup (ASP.NET Web API)
 
 ```bash
 cd TracendBackend
-
+```
 
 ### run this command
 ```bash 
 dotnet restore
+```
 
-
-###Database Configuration:
+### Database Configuration in app.setting.json
+```bash
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=your_server;Database=TracendDB;Trusted_Connection=True;"
   }
 }
-
-###Frontend Setup (React)
+```
+### Frontend Setup (React)
 ```bash
 npm install
 npm start
+```
 
 Restoring Database from Backup
 ------------------------------
